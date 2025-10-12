@@ -64,6 +64,7 @@ Stylus: https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfoba
 ### 3rd Party Discord Clients (for the Discord app)
 
 #### Vencord
+https://vencord.dev
 
 Online Theme Link
 ```
@@ -82,6 +83,7 @@ By installing via Online Themes, **future updates to the code will automatically
 If you prefer a **local install** on your machine, follow the below steps for BetterDiscord, but in the Vencord "Local Themes" section.
 
 #### BetterDiscord
+https://betterdiscord.app
 
 1. Download the auto-hide-discord-channel-list.css file.
 2. Open Discord.
