@@ -42,7 +42,7 @@ First, copy the CSS code above.
 
 (Stylus)
 1. Click the extension icon in your browser.
-2. Click "Write style for https:\/\/discord\.com\/channels\/@me"
+2. Click "Write style for `https://discord.com/channels/@me`"
 3. Replace where it says "*/ Insert code here */" with the CSS code you copied.
 4. Click the Save button in the top left of the screen.
 5. Click the extension icon again, and make sure the toggle next to the style is enabled.
