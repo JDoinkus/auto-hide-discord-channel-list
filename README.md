@@ -1,6 +1,7 @@
 # Auto Hide Discord Channel List
 A simple bit of CSS code that will hide the server list when the window is resized until hovered.
 
+## Example Image
 ![discord-css-example](https://github.com/user-attachments/assets/0f9b2959-0639-450d-bff5-a74a50a4cab9)
 
 ## Code
@@ -31,7 +32,6 @@ A simple bit of CSS code that will hide the server list when the window is resiz
     overflow: hidden;                               /*Hides inner content while closed */
     transition: width 0.25s ease;                   /*Animation speed, and animation interpolation control.*/
 }
-
 ```
 
 This is just a simple bit of CSS code and can be applied in many ways.
