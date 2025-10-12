@@ -34,13 +34,26 @@ A simple bit of CSS code that hides the channel list when the window is resized.
 }
 ```
 
-This is just a simple bit of CSS code and can be applied in many ways.
-
 ## Instructions
+
+**WARNING!:** This will NOT work in the Discord App, only the website version, or 3rd party clients listed below.
 
 ### Web Chrome Extensions (Stylus or Stylebot)
 
-First, copy the CSS code above.
+- First, copy the CSS code above.
+- To apply the CSS to your browser's website, you'll need an extension that allows you to edit the CSS of the website. Stylus and Stylebot are the one's I've used and they are fairly simple to use.
+
+**Chrome Extension Links**
+
+Stylebot (simplest): https://chromewebstore.google.com/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha
+
+Stylus: https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
+
+
+(Stylebot)
+1. Click the extension icon in your browser.
+2. Click the button at the bottom of the window pop up and switch from "Basic" "<> Code"
+3. Paste the CSS in the empty text box.
 
 (Stylus)
 1. Click the extension icon in your browser.
@@ -48,12 +61,6 @@ First, copy the CSS code above.
 3. Replace where it says "*/ Insert code here */" with the CSS code you copied.
 4. Click the Save button in the top left of the screen.
 5. Click the extension icon again, and make sure the toggle next to the style is enabled.
-
-(Stylebot)
-1. Click the extension icon in your browser.
-2. Click the button at the bottom of the window pop up and switch from "Basic" "<> Code"
-3. Paste the CSS in the empty text box.
-
 ### 3rd Party Discord Clients (for the Discord app)
 
 #### Vencord
@@ -70,9 +77,9 @@ https://raw.githubusercontent.com/JDawgtor/auto-hide-discord-channel-list/refs/h
 5. Change the tab from Local Themes to Online Themes Tab at the top of the Window.
 6. Paste the link on a new line in the Online Themes text box.
 
-By installing via Online Themes, any new updates to the code will automatically apply.
+By installing via Online Themes, **future updates to the code will automatically apply**.
 
-If you prefer to be installed locally on your machine, follow the below steps for BetterDiscord, but in the Vencord "Local Themes" section.
+If you prefer a **local install** on your machine, follow the below steps for BetterDiscord, but in the Vencord "Local Themes" section.
 
 #### BetterDiscord
 
