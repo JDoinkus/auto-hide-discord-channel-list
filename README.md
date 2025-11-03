@@ -8,35 +8,37 @@ A simple bit of CSS code that hides the channel list when the window is resized.
 ```css
 /* When window is resized */
 @media (max-width: 1000px) {
+
     /* Hide by default */
-    .sidebarList_c48ade {
+    [class^="sidebarList_"] {
         width: 0;
         min-width: 0;
     }
     .panel__5dec7,
     .wrapper_e131a9,
-    .buttons__37e49 {
+    [class^="buttons__"] {
         opacity: 0;
         pointer-events: none;
     }
     
     /* On hover, expand and reveal */
-    .sidebar_c48ade:hover .sidebarList_c48ade {
+    [class^="sidebar_"]:hover [class^="sidebarList_"] {
         width: 300px;
         min-width: 100px;
     }
-    .sidebar_c48ade:hover .panel__5dec7,
-    .sidebar_c48ade:hover .wrapper_e131a9,
-    .sidebar_c48ade:hover .buttons__37e49 {
+    [class^="sidebar_"]:hover .panel__5dec7,
+    [class^="sidebar_"]:hover .wrapper_e131a9,
+    [class^="sidebar_"]:hover [class^="buttons__"] {
         opacity: 1;
         pointer-events: auto;
     }
-    /* Smooth transition */
-    .sidebarList_c48ade,
+
+    /* Smooth transitions */
+    [class^="sidebarList_"],
     .panel__5dec7,
     .wrapper_e131a9,
-    .buttons__37e49 {
-        transition: width 0.25s ease, opacity 0.25s ease;    /* Animation speed, and animation interpolation control */
+    [class^="buttons__"] {
+        transition: width 0.25s ease, opacity 0.25s ease;   /*Animation speed, and animation interpolation control*/
         overflow: hidden;
         will-change: width, opacity;
     }
