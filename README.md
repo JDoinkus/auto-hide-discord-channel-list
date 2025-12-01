@@ -70,7 +70,7 @@ Stylus: https://chromewebstore.google.com/detail/stylus/
 5. Click the extension icon again, and make sure the toggle next to the style is enabled.
 
 ### 3rd Party Discord Clients (for the Discord app)
-**WARNING!:** Using 3rd party clients is technically against Discord's TOS. Use at your own risk.
+**WARNING!:** Using 3rd party clients is technically against Discord's ToS. Use at your own risk.
 
 #### Vencord
 https://vencord.dev
