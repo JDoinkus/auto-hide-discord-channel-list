@@ -46,20 +46,16 @@ A simple bit of CSS code that hides the channel list when the window is resized.
 ```
 
 ## Instructions
-
 **WARNING!:** This will NOT work in the Discord App, only the website version, or 3rd party clients listed below.
 
 ### Web Chrome Extensions (Stylus or Stylebot)
-
 - First, copy the CSS code above.
 - To apply the CSS to your browser's website, you'll need an extension that allows you to edit the CSS of the website. Stylus and Stylebot are the one's I've used and they are fairly simple to use.
 
 **Chrome Extension Links**
+Stylebot (simplest): https://chromewebstore.google.com/detail/stylebot/
 
-Stylebot (simplest): https://chromewebstore.google.com/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha
-
-Stylus: https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
-
+Stylus: https://chromewebstore.google.com/detail/stylus/
 
 (Stylebot)
 1. Click the extension icon in your browser.
@@ -72,7 +68,9 @@ Stylus: https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfoba
 3. Replace where it says "*/ Insert code here */" with the CSS code you copied.
 4. Click the Save button in the top left of the screen.
 5. Click the extension icon again, and make sure the toggle next to the style is enabled.
+
 ### 3rd Party Discord Clients (for the Discord app)
+**WARNING!:** Using 3rd party clients is technically against Discord's TOS. Use at your own risk.
 
 #### Vencord
 https://vencord.dev
